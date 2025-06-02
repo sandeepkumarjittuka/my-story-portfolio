@@ -1,0 +1,91 @@
+/* style.css */
+
+/* Smooth scrolling between sections */
+html {
+  scroll-behavior: smooth;
+}
+
+/* Reset margin and padding on all elements */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Body styling with gradient background and font */
+body {
+  font-family: 'Poppins', sans-serif;
+  line-height: 1.6;
+  background: linear-gradient(to right, #fdfbfb, #ebedee);
+  color: #333;
+  padding: 20px;
+}
+
+/* Header (top section) styles */
+header {
+  text-align: center;
+  background: linear-gradient(to right, #4f46e5, #6d28d9);
+  color: white;
+  padding: 60px 20px;
+  border-radius: 15px;
+  margin-bottom: 40px;
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+  transition: transform 0.3s ease;
+}
+
+header:hover {
+  transform: scale(1.02); /* Slight zoom on hover */
+}
+
+/* Each "chapter" card */
+.chapter {
+  background: white;
+  padding: 25px;
+  margin: 30px auto;
+  border-left: 6px solid #6366f1;
+  max-width: 650px;
+  border-radius: 10px;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.chapter:hover {
+  transform: translateY(-5px); /* Lift effect on hover */
+  box-shadow: 0 12px 24px rgba(0, 0, 0, 0.2);
+}
+
+/* Footer styling */
+footer {
+  text-align: center;
+  margin-top: 60px;
+  font-size: 0.9em;
+  color: #888;
+  padding: 20px;
+  border-top: 1px solid #ccc;
+}
+
+/* Responsive design for mobile */
+@media (max-width: 600px) {
+  .chapter {
+    margin: 15px;
+    padding: 20px;
+  }
+
+  header, footer {
+    padding: 20px 10px;
+  }
+}
+
+/* Optional: Custom scrollbar for WebKit browsers */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+::-webkit-scrollbar-track {
+  background: #f0f0f0;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #4f46e5;
+  border-radius: 10px;
+}
