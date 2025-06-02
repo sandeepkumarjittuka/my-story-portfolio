@@ -13,9 +13,7 @@ A simple HTML & CSS-only project that creatively shares my learning journey in w
 - Hover animations and modern UI
 - Smooth scroll and custom scrollbar
 
-## 🚀 Live Demo
 
-👉 [Click here to view it live](https://yourusername.github.io/my-story-portfolio)
 
 ## 🛠️ Built With
 
@@ -31,14 +29,10 @@ A simple HTML & CSS-only project that creatively shares my learning journey in w
 
 ## 🙋‍♂️ About Me
 
-- 👤 Name: Sandeep Kumar Jittuka (aka Annie January)  
+- 👤 Name: Sandeep Kumar Jittuka  
 - 🌐 [LinkedIn](https://www.linkedin.com/in/sandeep-kumar-4968b22b5)  
 - 💻 [GitHub](https://github.com/sandeepkumarjittuka)
 
-## 📸 Screenshot
 
-_Add a screenshot of your final webpage here (optional but nice for LinkedIn and GitHub)_
-
----
 
 Thanks for visiting my story! 🎉
